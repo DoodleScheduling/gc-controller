@@ -60,7 +60,7 @@ func (r *PodReconciler) SetupWithManager(mgr ctrl.Manager, opts PodReconcilerOpt
 func (r *PodReconciler) Reconcile(ctx context.Context, req ctrl.Request) (ctrl.Result, error) {
 	pod := corev1.Pod{}
 
-	err := r.Client.Get(ctx, req.NamespacedName, &pod)
+	err := r.Get(ctx, req.NamespacedName, &pod)
 	if err != nil {
 		if errors.IsNotFound(err) {
 			return reconcile.Result{}, nil
