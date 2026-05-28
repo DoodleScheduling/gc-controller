@@ -3,7 +3,7 @@ module github.com/DoodleScheduling/gc-controller
 go 1.26.0
 
 require (
-	github.com/fluxcd/pkg/runtime v0.106.0
+	github.com/fluxcd/pkg/runtime v0.107.0
 	github.com/go-logr/logr v1.4.3
 	github.com/onsi/ginkgo/v2 v2.29.0
 	github.com/onsi/gomega v1.41.0
@@ -28,7 +28,7 @@ require (
 	github.com/evanphx/json-patch/v5 v5.9.11 // indirect
 	github.com/exponent-io/jsonpath v0.0.0-20210407135951-1de76d718b3f // indirect
 	github.com/fluxcd/cli-utils v1.2.0 // indirect
-	github.com/fluxcd/pkg/apis/meta v1.27.0 // indirect
+	github.com/fluxcd/pkg/apis/meta v1.28.0 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.9.0 // indirect
 	github.com/go-errors/errors v1.5.1 // indirect
